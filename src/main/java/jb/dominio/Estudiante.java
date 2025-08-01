@@ -21,6 +21,7 @@ public class Estudiante {
     }
     public Estudiante(int idEstudiante, String nombre,
                       String apellido, String telefono, String email){
+        this.idEstudiante = idEstudiante;
         this.nombre = nombre;
         this.apellido = apellido;
         this.telefono = telefono;
